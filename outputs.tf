@@ -12,6 +12,6 @@
 # }
 
 output "pet_name" {
-  description = "Name of the pet."
-  value       = random_pet.name
+  description = "Name of the pet"
+  value       = random_pet.name.id
 }
